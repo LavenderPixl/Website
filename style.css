@@ -1,8 +1,9 @@
 body {
     background-color: lightblue;
+    background-image:image(imgs) ;
 }
 
-h1 {
+h1.headline{
     color:darkslateblue;
-    margin-left: 20px;
+    text-align: center;
 }
