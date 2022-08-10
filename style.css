@@ -1,9 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: lightblue;
-    background-image:image(imgs) ;
+    background-image: url(imgs/PC2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
-
-h1.headline{
-    color:darkslateblue;
+nav{
+    top:0px;
+    position:sticky;
+    display:flex;
+    height:30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.nav-links{
+    margin-left:auto;
+    margin-right: auto;
+    list-style-type:none;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color: black;
     text-align: center;
+    text-decoration: none;
+    width:100px;
+    font-size:20px;
+}
+li a:hover{
+    text-decoration: underline;
+    /*background-color: rgb(194, 230, 241);*/
+}
+.active{
+    text-decoration: underline;
+    /*background-color: rgb(177, 211, 223);*/
 }
