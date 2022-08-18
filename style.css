@@ -71,16 +71,23 @@ li a:hover{
     margin-right: auto;
     display:block;
 }
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+#projects .project-box {
+    width: 60%;
+}
 #projects .project-box .project-image{
     float:left;
-    margin-top: 7%;
-    margin-left: 7%;
-    width: 100%;
+    margin-top: 3%;
+    margin-left: 3%;
+    float: right;
 }
 #projects .pro-title{ /*Big text - Projects*/
     color:rgb(204, 151, 156)
 }
-#projects #dvi{
+#projects .dvi{
     display: flex;
     padding-left: 0px;
     flex-direction: row;
@@ -88,9 +95,10 @@ li a:hover{
 }
 .texts 
 {
-    float:left;
+    display:flex;
+    flex-direction: column;
     padding-left: 0px;
-    width: 45%;
+    width: 40%;
     font-size: 100%;
     margin-top: 3%;
     margin-left: 5%;
@@ -98,4 +106,8 @@ li a:hover{
 #projects .pro-text{/*Small text - Projects*/
     color:rgb(204, 151, 156)
 
+}
+.project-links {
+    display: inline-block;
+    vertical-align: top;
 }
