@@ -71,26 +71,36 @@ li a:hover{
     margin-right: auto;
     display:block;
 }
-.image-box { /* Changes project images size*/
-    width: 500px;
+/* #projects .project-box { 
+    height: 100%;
+    width: auto;
     margin-top: 10px;
     margin-left: 20px;
+    margin-bottom:100px;
+    border: 2px solid black;
     display: block;
-}
-#dvi { /* WIP*/
-} 
-#projects .image-box img {
-    height:100%;
-    width:100%;
-    object-fit: cover;
-    object-position: top;
+    text-decoration: none;
+} */
+#projects .project-box .project-image{
     float:left;
-    padding:30px;
+    width: 44%;
+    margin-top: 3%;
+    margin-left: 3%;
 }
-#projects .pro-intro{
-    text-align: left;
-    padding-top: 50px;
-    padding-left: 70px;
-    font-size: 40px;
+
+#projects .pro-title{ /*Big text - Projects*/
+    float:left;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 260%;
+    display: inline;
     color:rgb(204, 151, 156)
+}
+#projects .pro-text{/*Small text - Projects*/
+    float:left;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 210%;
+    color:rgb(204, 151, 156)
+
 }
