@@ -4,10 +4,10 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+
 body { /*Background img*/
     background-color: rgb(204, 151, 156);
     background-image: url(imgs/purbackground.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -36,7 +36,7 @@ li a{ /*navi links looks*/
     text-align: center;
     text-decoration: none;
     width:120px;
-    font-size:26px;
+    font-size:160%;
 }
 li a:hover{
     text-decoration: underline;
@@ -53,54 +53,49 @@ li a:hover{
 .intro {
     text-align: center;
     padding-top: 70px;
-    font-size: 24px;
+    font-size: 170%;
     color:rgb(204, 151, 156)
 }
 .selfie{
     border-radius: 50%;
-    max-width: 13%;
+    max-width: 20%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     display: block;
 }
 .languages { /*Displays img of languages I'm learning*/
-    max-width: 20%;
+    max-width: 15%;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display:block;
 }
-/* #projects .project-box { 
-    height: 100%;
-    width: auto;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom:100px;
-    border: 2px solid black;
-    display: block;
-    text-decoration: none;
-} */
 #projects .project-box .project-image{
     float:left;
-    width: 44%;
-    margin-top: 3%;
-    margin-left: 3%;
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 100%;
 }
-
 #projects .pro-title{ /*Big text - Projects*/
-    float:left;
-    margin-top: 3%;
-    margin-left: 3%;
-    font-size: 260%;
-    display: inline;
     color:rgb(204, 151, 156)
 }
-#projects .pro-text{/*Small text - Projects*/
+#projects #dvi{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: row;
+    padding-right: 20px;
+}
+.texts 
+{
     float:left;
+    padding-left: 0px;
+    width: 45%;
+    font-size: 100%;
     margin-top: 3%;
-    margin-left: 3%;
-    font-size: 210%;
+    margin-left: 5%;
+}
+#projects .pro-text{/*Small text - Projects*/
     color:rgb(204, 151, 156)
 
 }
