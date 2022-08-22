@@ -87,11 +87,22 @@ li a:hover{
 #projects .pro-title{ /*Big text - Projects*/
     color:rgb(204, 151, 156)
 }
-#projects .dvi{
-    display: flex;
-    padding-left: 0px;
-    flex-direction: row;
-    padding-right: 20px;
+#projects .pro-text{/*Small text - Projects*/
+    color:rgb(204, 151, 156)
+}
+.contact-h
+{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 170%;
+    color:rgb(204, 151, 156)
+}
+.contact-p
+{
+    color:rgb(204, 151, 156);
+    text-align: center;
+    padding-top: 70px;
+    font-size: 170%;
 }
 .texts 
 {
@@ -103,11 +114,13 @@ li a:hover{
     margin-top: 3%;
     margin-left: 5%;
 }
-#projects .pro-text{/*Small text - Projects*/
-    color:rgb(204, 151, 156)
+#projects .dvi{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: row;
+    padding-right: 20px;
+}
 
-}
-.project-links {
-    display: inline-block;
+/* .project-links {
     vertical-align: top;
-}
+} */
