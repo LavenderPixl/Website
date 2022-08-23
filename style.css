@@ -6,7 +6,7 @@
 }
 
 body { /*Background img*/
-    background-color: rgb(204, 151, 156);
+    background-color:rgb(204, 151, 156);
     background-image: url(imgs/purbackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ nav{ /*navi bar - visual color*/
     height:30px;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(204, 151, 156);
+    background-color:rgb(204, 151, 156)
 } 
 .nav-links{ /*navi links location*/
     margin-left:auto;
@@ -48,13 +48,13 @@ li a:hover{
     text-align: center;
     padding-top: 70px;
     font-size: 50px;
-    color:rgb(204, 151, 156)
+    color:rgb(204, 151, 156);
 }
 .intro {
     text-align: center;
     padding-top: 70px;
     font-size: 170%;
-    color:rgb(204, 151, 156)
+    color:rgb(252, 197, 201)
 }
 .selfie{
     border-radius: 50%;
@@ -85,21 +85,21 @@ li a:hover{
     float: right;
 }
 #projects .pro-title{ /*Big text - Projects*/
-    color:rgb(204, 151, 156)
+    color:rgb(252, 197, 201)
 }
 #projects .pro-text{/*Small text - Projects*/
-    color:rgb(204, 151, 156)
+    color:rgb(252, 197, 201)
 }
 .contact-h
 {
     text-align: center;
     padding-top: 70px;
     font-size: 170%;
-    color:rgb(204, 151, 156)
+    color:rgb(252, 197, 201)
 }
 .contact-p
 {
-    color:rgb(204, 151, 156);
+    color:rgb(252, 197, 201);
     text-align: center;
     padding-top: 70px;
     font-size: 170%;
@@ -120,7 +120,3 @@ li a:hover{
     flex-direction: row;
     padding-right: 20px;
 }
-
-/* .project-links {
-    vertical-align: top;
-} */
