@@ -6,27 +6,28 @@
 }
 
 body { /*Background img*/
-    background-color:rgb(204, 151, 156);
+    background-color:rgb(252, 197, 201);
     background-image: url(imgs/purbackground.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     
 } 
+/* Navigation Bar - Constant */
 nav{ /*navi bar - visual color*/
     top:0px;
     position:sticky;
     display:flex;
-    height:30px;
+    height:40px;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(204, 151, 156)
+    background-color:rgb(252, 197, 201);
 } 
 .nav-links{ /*navi links location*/
     margin-left:auto;
     margin-right: auto;
     list-style-type:none;
-} 
+}
 li{
     float:left;
 }
@@ -44,11 +45,12 @@ li a:hover{
 .active{
     text-decoration: underline;
 }
+/* Home Page */
 .header{
     text-align: center;
     padding-top: 70px;
     font-size: 50px;
-    color:rgb(204, 151, 156);
+    color:rgb(252, 197, 201)
 }
 .intro {
     text-align: center;
@@ -71,12 +73,51 @@ li a:hover{
     margin-right: auto;
     display:block;
 }
+
+/* Project Page */
 #projects {
     display: flex;
     flex-direction: column;
 }
+#projects .dvi{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: row;
+    padding-right: 20px;
+}
 #projects .project-box {
     width: 60%;
+}
+.findme /* Where to find me - Projects*/
+{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 90%;
+}
+.linkicons .github-img
+{
+    align-content: center;
+    margin-top:20px;
+    width:70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linkicons .linkedin-img
+{
+    align-content: center;
+    margin-top:20px;
+    width:70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linkicons .email-img
+{
+    align-content: center;
+    margin-top:20px;
+    width:70px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #projects .project-box .project-image{
     float:left;
@@ -84,12 +125,23 @@ li a:hover{
     margin-left: 3%;
     float: right;
 }
-#projects .pro-title{ /*Big text - Projects*/
+.pro-title{ /*Big text - Projects*/
     color:rgb(252, 197, 201)
 }
-#projects .pro-text{/*Small text - Projects*/
+.pro-text{/*Small text - Projects*/
     color:rgb(252, 197, 201)
 }
+.texts 
+{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    width: 40%;
+    font-size: 100%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+/* Contact page */
 .contact-h
 {
     text-align: center;
@@ -103,20 +155,4 @@ li a:hover{
     text-align: center;
     padding-top: 70px;
     font-size: 170%;
-}
-.texts 
-{
-    display:flex;
-    flex-direction: column;
-    padding-left: 0px;
-    width: 40%;
-    font-size: 100%;
-    margin-top: 3%;
-    margin-left: 5%;
-}
-#projects .dvi{
-    display: flex;
-    padding-left: 0px;
-    flex-direction: row;
-    padding-right: 20px;
 }
