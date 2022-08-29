@@ -168,4 +168,8 @@ li a:hover {
 }
 .linkicons #email {
   text-decoration-line: none;
+  border-radius: 50%;
+}
+#email {
+  border-radius: 50%;
 }
