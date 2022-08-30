@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  /*Background img*/
+  background-color: rgb(252, 197, 201);
+  background-image: url(imgs/purbackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Navigation Bar - Constant */
+nav {
+  /*navi bar - visual color*/
+  top: 0px;
+  position: sticky;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(252, 197, 201);
+}
+.nav-links {
+  /*navi links location*/
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+li {
+  float: left;
+}
+li a {
+  /*navi links looks*/
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  font-size: 160%;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.active {
+  text-decoration: underline;
+}
+/* -------------Home Page-------------*/
+
+.header {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 35px;
+  color: rgb(252, 197, 201);
+}
+.intro {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 100%;
+  color: rgb(252, 197, 201);
+}
+.selfie {
+  border-radius: 50%;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+}
+.languages {
+  /*Displays img of languages I'm learning*/
+  max-width: 40%;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* -------------Project page -------------*/
