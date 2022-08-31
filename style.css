@@ -89,6 +89,12 @@ li a:hover {
   flex-direction: row;
   padding-right: 20px;
 }
+#projects .ttt {
+  display: flex;
+  padding-left: 0px;
+  flex-direction: row;
+  padding-right: 20px;
+}
 #projects .project-box {
   width: 60%;
 }
