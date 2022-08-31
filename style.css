@@ -141,13 +141,23 @@ li a:hover {
   text-decoration-line: none;
   border-radius: 16px;
 }
-.linkicons .github-img {
+.linkicons {
+  display: flex;
+  justify-content: center;
+  text-decoration-line: none;
+  border-radius: 50%;
+}
+/* .linkicons .github-img {
   align-content: center;
   margin-top: 20px;
   width: 70px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 1%;
+} */
+#github {
+  border-radius: 50%;
+  background-color: aqua;
 }
 .linkicons .linkedin-img {
   align-content: center;
@@ -164,19 +174,4 @@ li a:hover {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 1%;
-}
-.linkicons #github {
-  text-decoration-line: none;
-  border-radius: 50%;
-}
-.linkicons #linkedin {
-  text-decoration-line: none;
-  border-radius: 50%;
-}
-.linkicons #email {
-  text-decoration-line: none;
-  border-radius: 50%;
-}
-#email {
-  border-radius: 50%;
 }
