@@ -7,7 +7,7 @@
 
 body {
   /*Background img*/
-  background-color: rgb(252, 197, 201);
+  background-color: #c99ba7;
   background-image: url(imgs/purbackground.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ nav {
   height: 40px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(252, 197, 201);
+  background-color: #c99ba7;
 }
 .nav-links {
   /*navi links location*/
@@ -39,8 +39,8 @@ li a {
   color: black;
   text-align: center;
   text-decoration: none;
-  width: 120px;
-  font-size: 160%;
+  width: 110px;
+  font-size: 140%;
 }
 li a:hover {
   text-decoration: underline;
@@ -52,9 +52,9 @@ li a:hover {
 
 .header {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
   font-size: 35px;
-  color: rgb(252, 197, 201);
+  color: #c99ba7;
 }
 .intro {
   text-align: center;
@@ -84,15 +84,16 @@ li a:hover {
 .project-box {
   max-width: 100%;
   max-height: 100%;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 /* Text */
 .pro-title {
   color: rgb(252, 197, 201);
   font-size: 160%;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 .pro-text {
   color: rgb(252, 197, 201);
+  margin-bottom: 10%;
 }
 /* -------------Contact page -------------*/
